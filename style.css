@@ -60,6 +60,13 @@ h1 {
     font-size: medium;
     flex-wrap: wrap;
 }
+.links a {
+    border-bottom: 2px solid transparent;
+}
+.links a:hover {
+    transition: all 0.4s ease;
+    border-color: white;
+}
 a {
     color: white;
 }
